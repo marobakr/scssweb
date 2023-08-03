@@ -1,0 +1,21 @@
+// import all variabluse
+@import './sass/helpers/variabluse';
+// import  mixins
+@import './sass/helpers/mixins';
+// import grid file
+@import './sass/layout/grid';
+// import buttons file
+@import 'sass/components/buttons';
+// import components_heading
+@import './sass/components/heading';
+
+
+@import './sass/pages/home';
+// import globalHome file
+@import './sass/pages/globalPage';
+// import headr file
+@import './sass/layout/headr';
+// import home file
+@import './sass/pages/globalPage';
+// import footer file
+@import './sass/layout/footer';

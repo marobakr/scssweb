@@ -1,0 +1,27 @@
+* {
+  box-sizing:border-box;
+}
+.container {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  @media #{$minSmall} {
+    width:750px;
+  }
+  @media #{$minMediam} {
+    width:970px;
+  }
+  @media #{$minLarge}{
+    width: 1170px;;
+  }
+
+}
+.clearifix {
+  clear: both;
+}
+.text-center-xs {
+  @media #{$maxMobile} {
+    text-align: center;
+  }
+}
